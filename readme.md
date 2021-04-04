@@ -36,8 +36,13 @@
 4. [+]Подгружаем в матлаб
 
 ## АЧХ входных цепей
-1. выставляем на гене фиксированную частоту
-2. считываем массив
+ 1. выставляем на гене фиксированную частоту
+ 1. считываем массив
+    1. по HSI
+       1. по HSI
+       1. по HSI
+    1. soft int
+       - [ ] 123
 
 ```matlab
 % цикл точечного измерения АЧХ
@@ -51,3 +56,8 @@ for k=1:n,
   f = f + df ;
 end ;
 ```
+  
+If you want to embed images, this is how you do it:
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+  
